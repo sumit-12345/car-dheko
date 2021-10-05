@@ -1,4 +1,4 @@
-package com.movie.movie.car;
+package com.vehicle.car;
 
 public interface ManualCar extends Car {
 

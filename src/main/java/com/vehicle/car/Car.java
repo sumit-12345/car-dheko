@@ -1,6 +1,6 @@
-package com.movie.movie.car;
+package com.vehicle.car;
 
-import com.movie.movie.model.OfferDetails;
+import com.vehicle.model.OfferDetails;
 
 public interface Car extends Specification {
      OfferDetails offer(Car abstractCar);

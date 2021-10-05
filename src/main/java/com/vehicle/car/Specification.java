@@ -1,14 +1,12 @@
-package com.movie.movie.car;
-
-import com.movie.movie.model.CustomerDetails;
-import com.movie.movie.model.InsurenceDetails;
-import com.movie.movie.model.Invoice;
-import com.movie.movie.model.LoanDetails;
-import lombok.Data;
+package com.vehicle.car;
+import com.vehicle.model.CustomerDetails;
+import com.vehicle.model.InsurenceDetails;
+import com.vehicle.model.Invoice;
+import com.vehicle.model.LoanDetails;
 
 
 public interface Specification {
-    Invoice buy(CustomerDetails customerDetails,Specification specification);
+    Invoice buy(CustomerDetails customerDetails, Specification specification);
     Invoice book(CustomerDetails customerDetails,Specification specification);
     LoanDetails loan(Specification specification);
     InsurenceDetails insurence(Specification specification);
