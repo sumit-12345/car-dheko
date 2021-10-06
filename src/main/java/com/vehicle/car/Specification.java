@@ -14,4 +14,5 @@ public interface Specification {
     void emi(Specification car);
     String getBrand();
     String getName();
+
 }
