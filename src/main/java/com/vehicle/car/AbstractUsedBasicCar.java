@@ -1,6 +1,6 @@
 package com.vehicle.car;
 
-public abstract class AbstractUsedBasic extends AbstractUsedCar{
+public abstract class AbstractUsedBasicCar extends AbstractUsedCar{
 
     String Brand;
     String Name;

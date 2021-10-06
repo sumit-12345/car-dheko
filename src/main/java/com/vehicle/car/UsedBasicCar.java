@@ -3,7 +3,7 @@ package com.vehicle.car;
 import com.vehicle.model.CustomerDetails;
 import com.vehicle.model.Invoice;
 
-public class UsedBasic extends AbstractUsedBasic{
+public class UsedBasicCar extends AbstractUsedBasicCar {
 
     @Override
     public Invoice sellCar(CustomerDetails customerDetails) {

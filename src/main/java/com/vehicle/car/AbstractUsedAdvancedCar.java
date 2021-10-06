@@ -1,6 +1,6 @@
 package com.vehicle.car;
 
-public abstract class AbstractUsedAdvanced extends AbstractUsedCar{
+public abstract class AbstractUsedAdvancedCar extends AbstractUsedCar{
 
     String steeringType;
     String Alternators;
